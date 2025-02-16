@@ -1,4 +1,9 @@
 # # genai_app/app.py
+import sys
+import os
+
+# Ensure Streamlit and Python recognize genai_app as a module
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import streamlit as st
 from genai_app.google_client import review_code
