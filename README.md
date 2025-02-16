@@ -12,33 +12,24 @@ The GenAI App is a Python application built with Streamlit that allows users to 
 
 ## Setup Instructions
 
-### 1. Clone the Repository
-Run the following command in your terminal:
-
+```bash
+# 1. Clone the Repository
 git clone <YOUR_REPOSITORY_URL>
 
+# 2. Navigate into the Project Folder
+cd <repo-name>  # Replace <repo-name> with the actual folder name created after cloning
 
-2. Navigate into the Project Folder
-Replace <repo-name> with the actual folder name created after cloning:
-cd <repo-name>
-
-3. Create and Activate a Virtual Environment
-For Windows:
+# 3. Create and Activate a Virtual Environment
+# For Windows:
 python -m venv venv
 venv\Scripts\activate
 
-For Mac/Linux:
+# For Mac/Linux:
 python -m venv venv
 source venv/bin/activate
 
-4. Install Dependencies
+# 4. Install Dependencies
 pip install -r requirements.txt
 
-5. Run the Application
+# 5. Run the Application
 streamlit run genai_app/app.py
-
-Technologies Used:
-Python
-Streamlit
-Google Generative AI
-Git & GitHub
