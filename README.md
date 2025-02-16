@@ -14,8 +14,9 @@ The GenAI App is a Python application built with Streamlit that allows users to 
 
 ### 1. Clone the Repository
 Run the following command in your terminal:
-```bash
+
 git clone <YOUR_REPOSITORY_URL>
+
 
 2. Navigate into the Project Folder
 Replace <repo-name> with the actual folder name created after cloning:
