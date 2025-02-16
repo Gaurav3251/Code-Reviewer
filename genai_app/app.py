@@ -6,7 +6,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import streamlit as st
-from genai_app.google_client import review_code
+from genai_app import google_client
 
 def main():
     st.title("AI Code Reviewer")
