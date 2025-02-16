@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# AI-Code-Reviewer
- AI Code Reviewer built with Streamlit and GoogleAI API. This app analyzes Python code, identifies bugs, suggests optimizations, and provides corrected code snippets.
-=======
 # GenAI App - AI Code Reviewer
 
 ## Overview
@@ -11,13 +7,37 @@ The GenAI App is a Python application built with Streamlit that allows users to 
 ## Features
 
 - **User-Friendly Interface:** Easily input and submit Python code.
-- **Code Review:** Automatically review code using a Google Generative AI model.
-- **Detailed Feedback:** Receive a structured response including bug identification, suggested fixes, and corrected code.
+- **AI-Powered Code Review:** Automatically review code using Google Generative AI.
+- **Detailed Feedback:** Receive structured feedback, including bug identification, suggested fixes, and corrected code snippets.
 
 ## Setup Instructions
 
-1. **Clone the Repository:**
-   ```bash
-   git clone <YOUR_REPOSITORY_URL>
-   cd internship\ task4
->>>>>>> 8b12ad2 (Initial commit - AI Code Reviewer)
+### 1. Clone the Repository
+Run the following command in your terminal:
+```bash
+git clone <YOUR_REPOSITORY_URL>
+
+2. Navigate into the Project Folder
+Replace <repo-name> with the actual folder name created after cloning:
+cd <repo-name>
+
+3. Create and Activate a Virtual Environment
+For Windows:
+python -m venv venv
+venv\Scripts\activate
+
+For Mac/Linux:
+python -m venv venv
+source venv/bin/activate
+
+4. Install Dependencies
+pip install -r requirements.txt
+
+5. Run the Application
+streamlit run genai_app/app.py
+
+Technologies Used:
+Python
+Streamlit
+Google Generative AI
+Git & GitHub
