@@ -1,7 +1,7 @@
 # # genai_app/app.py
 
 import streamlit as st
-from genai_app import google_client
+from genai_app.google_client import review_code
 
 def main():
     st.title("AI Code Reviewer")
