@@ -36,7 +36,7 @@ streamlit run genai_app/app.py
 
 ```
 
-Technologies Used
-Python
-Streamlit
+Technologies Used:
+Python,
+Streamlit,
 Google Generative AI
