@@ -33,3 +33,10 @@ pip install -r requirements.txt
 
 # 5. Run the Application
 streamlit run genai_app/app.py
+
+```
+Technologies Used:
+Python
+Streamlit
+Google Generative AI
+Git & GitHub
